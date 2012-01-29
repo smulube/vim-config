@@ -23,7 +23,7 @@ set scrolloff=3                 " Scroll when the cursor is 3 lines from edge
 set cursorline                  " Highlight current line
 set laststatus=2                " Always show statusline
 set statusline=
-set statusline+=\ %t\ \|\ len:\ \%L\ \|\ type:\ %Y\ \|\ ascii:\ \%03.3b\ \|\ hex:\ %2.2B\ \|\ line:\ \%2l
+set statusline+=\ %t\ \|\ len:\ \%L\ \|\ type:\ %Y\ \|\ ascii:\ \%03.3b\ \|\ hex:\ %2.2B\ \|\ line:\ \%2l\ \|\ percentage:\ \%P
 
 set incsearch                   " Incremental search
 set hlsearch                    " TODO: check
