@@ -38,7 +38,8 @@ map <D-<>       :tabedit ~/.vimrc<CR>
 map <leader>rv  :source ~/.vimrc<CR>
 
 " Remove highlighting post-search
-nmap <leader>y  :nohls<CR>
+nmap <S-h>  :nohls<CR>
+" nmap <S-h> :set invhlsearch<CR>
 
 " Undo/redo - Doesn't MacVim already have this?
 map <D-z>       :earlier 1<CR>
