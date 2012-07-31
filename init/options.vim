@@ -53,3 +53,6 @@ autocmd BufRead *
       \ exec "set path-=".s:default_path |
       \ exec "set path^=".s:tempPath |
       \ exec "set path^=".s:default_path
+
+let g:vimclojure#HighlightBuiltins = 1
+let g:vimclojure#ParenRainbow = 1
