@@ -32,3 +32,5 @@ autocmd FileType ruby imap  <Space>=><Space>
 
 " Handlebars as hb
 autocmd BufNewFile,BufRead *.hb set filetype=handlebars
+
+autocmd BufNewFile,BufRead *.template set filetype=html
