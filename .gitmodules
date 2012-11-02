@@ -55,3 +55,6 @@
 [submodule "bundle/VimClojure"]
 	path = bundle/VimClojure
 	url = git://github.com/vim-scripts/VimClojure.git
+[submodule "bundle/vim-haskell"]
+	path = bundle/vim-haskell
+	url = git://github.com/wlangstroth/vim-haskell.git
