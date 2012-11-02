@@ -58,3 +58,6 @@
 [submodule "bundle/vim-haskell"]
 	path = bundle/vim-haskell
 	url = git://github.com/wlangstroth/vim-haskell.git
+[submodule "bundle/paredit"]
+	path = bundle/paredit
+	url = git://github.com/vim-scripts/paredit.vim.git
