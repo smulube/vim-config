@@ -61,3 +61,6 @@
 [submodule "bundle/paredit"]
 	path = bundle/paredit
 	url = git://github.com/vim-scripts/paredit.vim.git
+[submodule "bundle/trailing-whitespace"]
+	path = bundle/trailing-whitespace
+	url = git://github.com/vim-scripts/trailing-whitespace.git
