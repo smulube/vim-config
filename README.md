@@ -18,3 +18,7 @@ As long as your checkout is kept clean, you can easily update, rebase your local
     https://github.com/pivotal/vim-config
 
 with some stuff I didn't need removed.
+
+# Updating all submodules
+
+    git submodule foreach git pull origin master
